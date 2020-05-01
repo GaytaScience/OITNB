@@ -36,3 +36,16 @@ All acts meeting the above criteria were manually recorded to create the data. T
 Data recorded April 2020 (initially 2019 but updated for refined criteria and Netflix increasing episode length (suspect additional credits were added at end of all episodes).
 
 This data focuses on encounters that are sexual-in-nature given the opportunity the series provides through its groundbreaking portrayal of queer relationships. We recognize that this is sex-normative and that there are other just as intense forms of intimacy one could choose to engage in. Much love to the ace/aro community, whose [portrayal in media](https://azejournal.com/article/2018/6/29/creating-ace-space-in-the-media) also desperately needs to be explored.
+
+## OITNB Episode Length Dataset
+
+This is a supplemental dataset with the total episode length for all OITNB episodes (not just ones with an on-screen sexual/affectionate encounter). This set can be merged into the Sexual Encounters dataset for use in analyses where normalization is needed. 
+
+**Data Dictionary:**
+
+| Variable       | Description           | Data Type  |
+| :------------- |:-------------| :-----|
+| Season     | Season number (1-7). | Integer |
+| Episode    | Episode number (1-13). | Integer |
+| Title    | Title of episode. | String |
+| EpLength    | Total length of episode. | Timestamp (H:MM:SS) |
